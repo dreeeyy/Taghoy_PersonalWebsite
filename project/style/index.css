@@ -1,12 +1,14 @@
 
 body{
+	background-image: url('../images/A.jpg');
 	background-color: #b8c0b6;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .profile{
-	position: relative;
-	width: 100%;
-	opacity: 0.8;
+	position: static;
+	width: 1000%;
 	padding: 20px;
 }
 h2{
@@ -39,11 +41,11 @@ h2 span{
 	background-color: red;
 
 }*/
-
+/*
 .Menu{
 	width: 500px;
 	height: 500px;
-	margin-top: -700px;
+	margin-top: 100px;
 	margin-left: 750px;
 }
 
@@ -61,3 +63,4 @@ h2 span{
 .Menu a: hover{
 	background-color: #ccc;
 }
+*/

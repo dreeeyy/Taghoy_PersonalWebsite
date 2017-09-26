@@ -52,6 +52,22 @@ h2 span{
 	text-shadow: 2px 2px black;
 
 }
+.description{
+	position: absolute;
+	width: 583px;
+	height: 90px;
+	top: 125px;
+	left: 130px;
+	font-family: Arial;
+	border-bottom: solid rgb(124,124,124);
+}
+.desc{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: rgb(124,124,124);
+	font-size: 1.3em;
+}
 /*
 #logo {
 	width: 500px;

@@ -77,23 +77,65 @@ h2 span{
 	border-bottom: solid rgb(124,124,124);
 }
 .information{
-	background-color: rgba(255,255,255,.8);
+	position: absolute;
+	top: 10px;
 	width: 300px;
-	height: 1435px;
-	box-shadow: 0px 5px 10px black;
+	height: 170px;
+	font-family: Arial;
+	text-shadow: 0px 2px 5px black;
+	color: white;
+	box-shadow: 0px 2px 5px black;
 }
-.contact{
+.info1{
 	position: absolute;
 	width: 200px;
-	left: 65px;
+	left: 20px;
 	top: 30px;
 	font-size: 1.2em;
 }
-.mobile{
+.height{
 	position: absolute;
 	width: 200px;
-	left: 65px;
+	left: 20px;
 	top: 55px;
+}
+.info2{
+	position: absolute;
+	width: 200px;
+	left: 20px;
+	top: 90px;
+	font-size: 1.2em;
+}
+.weight{
+	position: absolute;
+	width: 200px;
+	left: 20px;
+	top: 110px;
+}
+.info3{
+	position: absolute;
+	width: 200px;
+	right: 1px;
+	top: 30px;
+	font-size: 1.2em;
+}
+.age{
+	position: absolute;
+	width: 200px;
+	right: 1px;
+	top: 55px;
+}
+.info4{
+	position: absolute;
+	width: 200px;
+	right: 1px;
+	top: 90px;
+}
+.voice{
+	position: absolute;
+	width: 200px;
+	right: 1px;
+	top: 110px;
 }
 /*
 #logo {

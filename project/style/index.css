@@ -145,36 +145,36 @@ h2 span{
 .myaddress{
 	position: absolute;
 	width: 200px;
-	left: 65px;
+	left: 20px;
 	top: 10px;
 	font-size: 1.1em;
 }
 .myaddress1{
 	position: absolute;
 	width: 200px;
-	left: 65px;
-	top: 65px;
+	left: 20px;
+	top: 70px;
 }
 
 /*Education*/
 #educ{
 	position: absolute;
-	left: 320px;
-	top: 480px;
-	width: 713px;
-	height: 425px;
+	left: 770px;
+	top: 520px;
+	width: 710px;
+	height: 500px;
 	box-shadow: 0px 5px 10px black;
 	background-color: rgba(255,255,255,.8);
 }
 .Ehead{
-	position: relative;
-	top:50px;
+	position: absolute;
+	top:10px;
 	left: 10px;
 }
 .Etitle{
 	position: absolute;
 	top: 10px;
-	left: 130px;
+	left: 200px;
 	font-family: Arial;
 	font-size: 2em;
 	color: rgb(124,124,124);
@@ -183,8 +183,8 @@ h2 span{
 	position: absolute;
 	width: 583px;
 	height: 90px;
-	top: 125px;
-	left: 130px;
+	top: 80px;
+	left: 75px;
 	font-family: Arial;
 	border-bottom: solid rgb(124,124,124);
 }
@@ -213,41 +213,111 @@ h2 span{
 	top:60px;
 	left: 10px;
 }
-/*
-#logo {
-	width: 500px;
-	height: 500px;
-
+.education1{
+	position: absolute;
+	width: 583px;
+	height: 90px;
+	top: 175px;
+	left: 75px;
+	font-family: Arial;
+	border-bottom: solid rgb(124,124,124);
 }
-#hlogo	{
-		z-index:	-10;
+.school1{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 1.3em;
 }
-
-
-#hhome {
-	background-color: red;
-
-}*/
-/*
-.Menu{
-	width: 500px;
-	height: 500px;
-	margin-top: 100px;
-	margin-left: 750px;
-}
-
-.Menu a{
-	background-color: #eee;
-	color: black;
-	display: block;
-	padding: 15px;
+.school1 a{
+	color: rgb(124,124,124);
 	text-decoration: none;
-	border: 1px solid black;
-	text-align: center;
-
+}
+.school1:hover a{
+	color: rgb(192,2,1);
+	text-decoration: none;
+}
+.date1{
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	color: rgb(192,2,1);
+}
+.address1{
+	position: absolute;
+	top: 60px;
+	left: 10px;
 }
 
-.Menu a: hover{
-	background-color: #ccc;
+.education2{
+	position: absolute;
+	width: 583px;
+	height: 90px;
+	top: 265px;
+	left: 75px;
+	font-family: Arial;
+	border-bottom: solid rgb(124,124,124);
 }
-*/
+.school2{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 1.3em;
+}
+.school2 a{
+	color: rgb(124,124,124);
+	text-decoration: none;
+}
+.school2:hover a{
+	color: rgb(192,2,1);
+	text-decoration: none;
+}
+.date2{
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	color: rgb(192,2,1);
+}
+.address2{
+	position: absolute;
+	top: 60px;
+	left: 10px;
+}
+
+.education3{
+	position: absolute;
+	width: 583px;
+	height: 90px;
+	top: 350px;
+	left: 75px;
+	font-family: Arial;
+	border-bottom: solid rgb(124,124,124);
+}
+.school3{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 1.3em;
+}
+.school3 a{
+	color: rgb(124,124,124);
+	text-decoration: none;
+}
+.school3:hover a{
+	color: rgb(192,2,1);
+	text-decoration: none;
+}
+.date3{
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	color: rgb(192,2,1);
+}
+.address3{
+	position: absolute;
+	top: 60px;
+	left: 10px;
+}
+
+
+
+

@@ -28,11 +28,11 @@ header:before {
    height: 100%;
 }
 header .banner {
-   display: inline-block;
-   vertical-align: middle;
-   margin: 0 auto;
+   position: absolute;
+   top: 80px;
+   left: 65px;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -103,11 +103,10 @@ header .scrolldown a:hover { color: #11ABB0; }
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
-   margin: 0 auto;
    z-index: 100;
    position: fixed;
    left: 0;
-   top: 0;
+   top: 30px;
 }
 .opaque { background-color: #333; }
 #nav-wrap > a.mobile-btn { display: none; }
@@ -133,7 +132,7 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #fff;
+   color: #7f7f7f;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -143,21 +142,50 @@ ul#nav li a {
 }
 
 
+/*ABOUT SECTION*/
+#about {
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+#about a, #about a:visited  { color: #fff; }
+#about a:hover, #about a:focus { color: #11ABB0; }
+
+#about h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#about p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+#about .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+#about .contact-details { width: 41.66667%; }
+#about .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#about .main-col { padding-right: 5%; }
 
 
-
-
-#container {
+/*#container {
 	margin: auto;
 	margin-bottom: 50px;
 	position: relative;
 	width: 1024px;
 	height: 1436px;
-	top: 400px;
+	top: 50px;
 	background-color: rgba(255,255,255,.3);
 	padding: 10px;
 }
-#about{
+/*#about{
 	position: absolute;
 	left: 320px;
 	top: 10px;
@@ -275,8 +303,7 @@ ul#nav li a {
 	left: 20px;
 	top: 70px;
 }
-
-/*Education*/
+/*
 #educ{
 	position: absolute;
 	left: 770px;
@@ -447,5 +474,5 @@ header .banner {
    text-align: center;
 }
 
-
+*/
 

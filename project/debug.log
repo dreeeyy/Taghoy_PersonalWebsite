@@ -21,3 +21,6 @@
 [0927/083537.974:ERROR:process_reader_win.cc(242)] ReadMemory at 0xb76dffe000 of 8192 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
 [0927/083538.056:ERROR:crash_report_exception_handler.cc(116)] WriteEverything failed
 [0927/083539.351:ERROR:scoped_process_suspend.cc(39)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[0928/154049.637:ERROR:process_info.cc(632)] range at 0x4386288800000000, size 0x1ee fully unreadable
+[0928/154049.721:ERROR:process_info.cc(632)] range at 0x438628a800000000, size 0x1ee fully unreadable
+[0928/154049.721:ERROR:process_info.cc(632)] range at 0x0, size 0x1ee fully unreadable

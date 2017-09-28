@@ -42,6 +42,45 @@ h1{
 	background: rgba(0, 0, 0, 0.7);
 	padding: 10px;
 }
+/*END HEADER*/
+
+/*NAVIGATION*/
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+	 margin: 0;
+	 padding: 0;
+	 border: none;
+	 outline: none;
+}
+#nav-wrap {
+   font: 12px 'opensans-bold', sans-serif;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   z-index: 100;
+   position: fixed;
+   left: 0;
+   top: 0;
+}
+.opaque { background-color: #333; }
+#nav-wrap > a.mobile-btn { display: none; }
+
+ul#nav {
+   min-height: 48px;
+   width: auto;
+
+   /* center align the menu */
+   text-align: center;
+}
+ul#nav li {
+   position: relative;
+   list-style: none;
+   height: 48px;
+   display: inline-block;
+}
+
+/* Links */
+ul#nav li a {
 
 #container {
 	margin: auto;

@@ -34,21 +34,38 @@ li p { }
 .row .three{
 	width: 25%;
 }
+.row {
+   width: 96%;
+   max-width: 1020px;
+   margin: 0 auto;
+}
+.ie .row { width: 1000px ; }
+
+.narrow .row { max-width: 980px; }
+
+.row .row { width: auto; max-width: none; margin: 0 -20px; }
+
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
+
 
 .column, .columns {
    position: relative;
    padding: 0 20px;
    min-height: 1px;
    float: left;
+}
+.column.centered, .columns.centered  {
+    float: none;
+    margin: 0 auto;
 }
 
 p { 
 	margin: 0 0 30px 0; 
-}
-
-.column, .columns {
-   position: relative;
-   padding: 0 20px;
-   min-height: 1px;
-   float: left;
 }

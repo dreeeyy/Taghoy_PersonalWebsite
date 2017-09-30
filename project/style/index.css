@@ -269,3 +269,33 @@ ul#nav li a {
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
+.dancing {
+  	width: 40%;
+  	-moz-animation: photoshop 2s ease;
+  	-webkit-animation: photoshop 2s ease;
+}
+.hiphop {
+  	width: 90%;
+  	-moz-animation: illustrator 2s ease;
+  	-webkit-animation: illustrator 2s ease;
+}
+.balleT {
+  	width: 80%;
+  	-moz-animation: wordpress 2s ease;
+  	-webkit-animation: wordpress 2s ease;
+}
+.contemporary {
+  	width: 70%;
+  	-moz-animation: css 2s ease;
+  	-webkit-animation: css 2s ease;
+}
+.sing {
+  	width: 75%;
+  	-moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+.act {
+  	width: 82%;
+  	-moz-animation: jquery 2s ease;
+  	-webkit-animation: jquery 2s ease;
+}

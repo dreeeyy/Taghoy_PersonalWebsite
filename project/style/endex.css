@@ -1,4 +1,8 @@
 
+@import url("fonts.css");
+@import url("../fonts/fontello/css/fontello.css");
+@import url("../fonts/font-awesome/css/font-awesome.min.css");
+
 
 a, a:visited {
    text-decoration: none;

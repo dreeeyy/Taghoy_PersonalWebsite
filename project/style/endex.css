@@ -40,6 +40,9 @@ li { line-height: 18px; margin-bottom: 12px; }
 ul.large li { }
 li p { }
 
+
+/*ALL KINDS OF ROWS..ROWS YOUR BOAT*/
+
 .row .three{
 	width: 25%;
 }
@@ -48,11 +51,17 @@ li p { }
    max-width: 1020px;
    margin: 0 auto;
 }
-.ie .row { width: 1000px ; }
+.ie .row { 
+	width: 1000px ; 
+}
 
-.narrow .row { max-width: 980px; }
+.narrow .row { 
+	max-width: 980px; 
+}
 
-.row .row { width: auto; max-width: none; margin: 0 -20px; }
+.row .row { 
+	width: auto; max-width: none; margin: 0 -20px; 
+}
 
 .row:before,
 .row:after {
@@ -61,6 +70,39 @@ li p { }
 }
 .row:after {
     clear: both;
+}
+
+@media only screen and (max-width: 767px) {
+
+   .row {
+	   width: 460px;
+	   margin: 0 auto;
+      padding: 0;
+	}
+   .column, .columns {
+	   width: auto !important;
+	   float: none;
+	   margin-left: 0;
+	   margin-right: 0;
+      padding: 0 30px;
+   }
+   .row .row { width: auto; max-width: none; margin: 0 -30px; }
+
+   [class*="column"] + [class*="column"]:last-child { float: none; }
+   [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: none; }
+
+   /* Offsets */
+   .row .offset-1    { margin-left: 0%; }
+   .row .offset-2    { margin-left: 0%; }
+   .row .offset-3    { margin-left: 0%; }
+   .row .offset-4    { margin-left: 0%; }
+   .row .offset-5    { margin-left: 0%; }
+   .row .offset-6    { margin-left: 0%; }
+   .row .offset-7    { margin-left: 0%; }
+   .row .offset-8    { margin-left: 0%; }
+   .row .offset-9    { margin-left: 0%; }
+   .row .offset-10   { margin-left: 0%; }
+   .row .offset-11   { margin-left: 0%; }
 }
 
 

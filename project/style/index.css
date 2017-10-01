@@ -5,14 +5,6 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-   font-family: 'opensans-regular', sans-serif;
-   font-weight: normal;
-   font-size: 15px;
-   line-height: 30px;
-	color: #838C95;
-
-   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-	-webkit-text-size-adjust: 100%;
 }
 
 
